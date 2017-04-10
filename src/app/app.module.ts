@@ -3,20 +3,29 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { RouterModule  } from '@angular/router';
 
 import { AppComponent } from './app.component';
+import { CvService } from './shared/cv.service';
+import { CvModule } from './cv/cv.module'
+import { ProjectModule } from './project/project.module'
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    MaterializeModule
+    RouterModule,
+    MaterializeModule,
+    ProjectModule,
+    CvModule,
+    AppRoutingModule
   ],
-  providers: [],
+  providers: [CvService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
