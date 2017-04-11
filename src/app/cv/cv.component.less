@@ -1,4 +1,4 @@
-.column-count(@ct) {
+/*.column-count(@ct) {
     -webkit-column-count: @ct;
     -moz-column-count: @ct;
     column-count: @ct;
@@ -6,6 +6,7 @@
 
 .cards-container {
     column-break-inside: avoid;
+    max-height: 2200px;
     .card {
         display: inline-block;
         overflow: visible;
@@ -28,4 +29,16 @@
     .cards-container {
         .column-count(3);
     }
+}
+*/
+
+.card-title {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
 }

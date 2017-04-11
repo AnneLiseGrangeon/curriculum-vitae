@@ -1,7 +1,20 @@
-<div class="section teal">
+<div class="section teal" *ngIf="project">
   <div class="row center-align">
-    <h1 class="title white-text" *ngIf="project">
+    <h1 class="title white-text">
     {{ project.title }}
   </h1>
   </div>
+</div>
+<div class="parallax-container">
+  <div class="parallax" materialize="parallax"><img src="/assets/images/projects/parallax1.jpg"></div>
+</div>
+<div class="section white" *ngIf="project">
+  <div class="row container">
+    <h2 class="header">{{project.title}}</h2>
+    <p class="grey-text text-darken-3 lighten-3">
+      {{project.description}}</p>
+  </div>
+</div>
+<div class="parallax-container">
+  <div class="parallax" materialize="parallax"><img src="/assets/images/projects/parallax1.jpg"></div>
 </div>
