@@ -21,12 +21,12 @@ export const projects: Project[] = [
     ]
   },
   {
-    title: 'Receipe',
+    title: 'Recipe',
     description: 'Nice Project 8',
-    slug: 'receipe',
+    slug: 'recipe',
     images: [
       {
-        src: '/assets/images/projects/receipe.jpg',
+        src: '/assets/images/projects/recipe.jpg',
         alt: 'alt 2',
         title: 'title 3',
         legend: 'legend 4'
@@ -97,18 +97,18 @@ export const projects: Project[] = [
     ]
   },
   {
-    title: 'Usama',
+    title: 'Artizz',
     description: 'Nice Project 12',
-    slug: 'usama',
+    slug: 'artizz',
     images: [
       {
-        src: '/assets/images/projects/usama-vignette.jpg',
+        src: '/assets/images/projects/artizz-vignette.jpg',
         alt: 'alt 2',
         title: 'title 3',
         legend: 'legend 4'
       },
       {
-        src: '/assets/images/projects/sample-1.jpg',
+        src: '/assets/images/projects/artizz-mockup.jpg',
         alt: 'alt 6',
         title: 'title 7',
         legend: 'legend 8'

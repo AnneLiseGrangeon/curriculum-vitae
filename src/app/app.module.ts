@@ -10,6 +10,8 @@ import { CvService } from './shared/cv.service';
 import { CvModule } from './cv/cv.module'
 import { ProjectModule } from './project/project.module'
 import { AppRoutingModule } from './app-routing.module';
+import {Ng2PageScrollModule} from 'ng2-page-scroll';
+
 
 @NgModule({
   declarations: [
@@ -23,7 +25,8 @@ import { AppRoutingModule } from './app-routing.module';
     MaterializeModule,
     ProjectModule,
     CvModule,
-    AppRoutingModule
+    AppRoutingModule,
+    Ng2PageScrollModule.forRoot()
   ],
   providers: [CvService],
   bootstrap: [AppComponent]

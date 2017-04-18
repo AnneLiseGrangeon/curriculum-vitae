@@ -21,6 +21,8 @@ export class ProjectComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    window.scrollTo(0,0);
+
     this.route.params.forEach((params: Params) => {
       if (typeof params['slug'] === 'string') {
         const slug = params['slug'];
