@@ -39,6 +39,37 @@ export const projects: Project[] = [
       }
     ]
   },
+    {
+    title: 'Musée de la magie',
+    description: 'Créations graphiques pour l\'inauguration du Musée de la magie à Paris',
+    slug: 'musee-magie',
+    images: [
+      {
+        src: '/assets/images/projects/musee-magie-vignette.jpg',
+        alt: 'Musée de la magie de Paris',
+        title: 'Projet : Musée de la magie',
+        legend: 'Musée de la magie de Paris'
+      },
+      {
+        src: '/assets/images/projects/musee-magie-flyer.jpg',
+        alt: 'Flyer de présentation du musée de la magie',
+        title: 'Projet : Musée de la magie',
+        legend: 'Flyer de présentation du musée de la magie'
+      },
+      {
+        src: '/assets/images/projects/musee-magie-kakemono.jpg',
+        alt: 'Kakémono pour l\'inauguration du musée',
+        title: 'Projet : Musée de la magie',
+        legend: 'Kakémono pour l\'inauguration du musée'
+      },
+      {
+        src: '/assets/images/projects/musee-magie-bag.jpg',
+        alt: 'Goodies du musée de la magie : à la boutique souvenir !',
+        title: 'Projet : Musée de la magie',
+        legend: 'Goodies du musée de la magie : à la boutique souvenir !'
+      },
+    ]
+  },
   {
     title: 'Régie des eaux',
     description: 'Refonte du site de la régie des eaux de Grenoble.',

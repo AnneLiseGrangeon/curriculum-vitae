@@ -3,12 +3,17 @@
     <img *ngIf="project && project.images && project.images[1] && project.images[1].src" class="responsive-img" src="{{project.images[1].src}}">
   </div>
 </div>
-<div class="section white" *ngIf="project">
-  <div class="row container">
-    <h1 class="header">{{project.title}}</h1>
+<div class="section white center-align" *ngIf="project">
+  <div class="row container mt6 mb6">
+    <h1 class="header ">{{project.title}}</h1>
     <p class="grey-text text-darken-3 lighten-3">
       {{project.description}}</p>
   </div>
 </div>
-<div class="section white">
+<div class="container white">
+  <div *ngIf="project" class="row">
+    <img class=" responsive-img mb2" src="{{project.images[1].src}} ">
+    <img class=" responsive-img mb2" src="{{project.images[2].src}} ">
+    <img class=" responsive-img mb2" src="{{project.images[3].src}} ">
+  </div>
 </div>
