@@ -3,6 +3,6 @@ import { projects } from './mock-project'
 
 export const CV: Cv = {
   title: 'Anne-Lise Grangeon',
-  description: 'Designer Web | Intégrateur',
+  description: 'Designer Web | Intégratrice',
   projects: projects
 }

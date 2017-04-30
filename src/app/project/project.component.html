@@ -11,9 +11,10 @@
   </div>
 </div>
 <div class="container white">
-  <div *ngIf="project" class="row">
-    <img class=" responsive-img mb2" src="{{project.images[1].src}} ">
-    <img class=" responsive-img mb2" src="{{project.images[2].src}} ">
-    <img class=" responsive-img mb2" src="{{project.images[3].src}} ">
+  <div *ngIf="project" class="row visuels-projet">
+    <div class="col s12 center-align" *ngFor="let image of project.images; let i=index ">
+      <img class="responsive-img mb2" src="{{image.src}}" *ngIf="i>=1">
+    </div>
+    <!-- Sauf la vignette -->
   </div>
 </div>
