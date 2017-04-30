@@ -11,8 +11,8 @@ import { Project } from './../shared/project';
 })
 export class ProjectComponent implements OnInit {
 
-  private error: string;
-  private project: Project;
+  error: string;
+  project: Project;
 
   constructor(
     private cvService: CvService,

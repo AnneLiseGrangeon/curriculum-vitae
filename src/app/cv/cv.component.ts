@@ -11,14 +11,14 @@ import { DOCUMENT } from '@angular/platform-browser';
   styleUrls: ['./cv.component.less']
 })
 export class CvComponent implements OnInit {
-  private error: string;
-  private cv: Cv;
+  error: string;
+  cv: Cv;
 
   constructor(
     private cvService: CvService,
     private router: Router,
     private route: ActivatedRoute,
-    private pageScrollService: PageScrollService, 
+    private pageScrollService: PageScrollService,
     @Inject(DOCUMENT) private document: any
   ) { }
 
@@ -35,5 +35,5 @@ export class CvComponent implements OnInit {
   toTop() {
    let pageScrollInstance: PageScrollInstance = PageScrollInstance.simpleInstance(this.document, '#top');
    this.pageScrollService.start(pageScrollInstance);
-  }; 
-}  
+  };
+}
