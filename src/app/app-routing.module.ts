@@ -8,8 +8,8 @@ const routes: Routes = [
   { path: '', component: CvComponent, canActivate: [MetaGuard],
     data: {
       meta: {
-        title: 'Cv Homepage',
-        description: 'Cv Homepage Anne-Lise Grangeon',
+        title: 'Cv Anne-Lise Grangeon',
+        description: 'Curriculum Vitae Anne-Lise Grangeon',
         author: 'Anne-Lise Grangeon',
         publisher: 'Anne-Lise Grangeon'
       }
@@ -18,8 +18,8 @@ const routes: Routes = [
   { path: '**', component: AppComponent, canActivate: [MetaGuard],
     data: {
       meta: {
-        title: 'Cv Homepage',
-        description: 'Cv Homepage Anne-Lise Grangeon',
+        title: 'Cv Anne-Lise Grangeon',
+        description: 'Curriculum Vitae Anne-Lise Grangeon',
         author: 'Anne-Lise Grangeon',
         publisher: 'Anne-Lise Grangeon'
       }
