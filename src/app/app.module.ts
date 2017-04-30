@@ -10,8 +10,9 @@ import { CvService } from './shared/cv.service';
 import { CvModule } from './cv/cv.module'
 import { ProjectModule } from './project/project.module'
 import { AppRoutingModule } from './app-routing.module';
-import {Ng2PageScrollModule} from 'ng2-page-scroll';
-
+import { Ng2PageScrollModule } from 'ng2-page-scroll';
+import { Angulartics2Module, Angulartics2GoogleAnalytics } from 'angulartics2';
+import { MetaModule } from '@nglibs/meta';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,9 @@ import {Ng2PageScrollModule} from 'ng2-page-scroll';
     ProjectModule,
     CvModule,
     AppRoutingModule,
-    Ng2PageScrollModule.forRoot()
+    Ng2PageScrollModule.forRoot(),
+    Angulartics2Module.forRoot([ Angulartics2GoogleAnalytics ]),
+    MetaModule.forRoot()
   ],
   providers: [CvService],
   bootstrap: [AppComponent]
