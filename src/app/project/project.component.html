@@ -1,19 +1,30 @@
-<div class="parallax-container">
-  <div class="parallax" materialize="parallax">
-    <img *ngIf="project && project.images && project.images[1] && project.images[1].src" class="responsive-img" src="{{project.images[1].src}}">
+<div class="section header pt5 pb5">
+  <div class="right-align" *ngIf="project">
+    <div class="container">
+      <div class="row">
+        <div class="project-info col s12 m7">
+          <h1 class="project-title">{{project.title}}</h1>
+          <p class="grey-text text-darken-3 lighten-3">
+            {{project.description}}</p>
+        </div>
+        <div class="col m5 hide-on-small-only">
+          <div class="parallax-container">
+            <div class="parallax" materialize="parallax">
+              <img *ngIf="project" class="thumbnail-plain responsive-img" src="{{project.thumbnails[1].src}}">
+              <div class="image-relative">
+                <img *ngIf="project" class="thumbnail-relative responsive-img" src="{{project.thumbnails[0].src}}">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
-<div class="section white center-align" *ngIf="project">
-  <div class="row container mt6 mb6">
-    <h1 class="header ">{{project.title}}</h1>
-    <p class="grey-text text-darken-3 lighten-3">
-      {{project.description}}</p>
-  </div>
-</div>
-<div class="container white">
-  <div *ngIf="project" class="row visuels-projet">
+<div class="container white projects mt6">
+  <div *ngIf="project" class="row visuals-project">
     <div class="col s12 center-align" *ngFor="let image of project.images; let i=index ">
-      <img class="responsive-img mb2" src="{{image.src}}" *ngIf="i>=1">
+      <img class="responsive-img mb2" src="{{image.src}}">
     </div>
     <!-- Sauf la vignette -->
   </div>

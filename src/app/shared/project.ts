@@ -5,4 +5,5 @@ export class Project {
   slug?: string;
   description?: string;
   images?: Image[];
+  thumbnails?: Image[];
 }
