@@ -1,21 +1,22 @@
-<div class="section header pt5 pb5">
+<div class="section header pt5">
   <div class="right-align" *ngIf="project">
     <div class="container">
       <div class="row">
-        <div class="project-info col s12 m7">
+        <div class="project-info col s12 m5 offset-m2">
           <h1 class="project-title">{{project.title}}</h1>
           <p class="grey-text text-darken-3 lighten-3">
             {{project.description}}</p>
         </div>
-        <div class="col m5 hide-on-small-only">
-          <div class="parallax-container">
+        <div class="project-thumbnails col m5 hide-on-small-only">
+          <!-- <div class="parallax-container">
             <div class="parallax" materialize="parallax">
               <img *ngIf="project" class="thumbnail-plain responsive-img" src="{{project.thumbnails[1].src}}">
               <div class="image-relative">
                 <img *ngIf="project" class="thumbnail-relative responsive-img" src="{{project.thumbnails[0].src}}">
               </div>
             </div>
-          </div>
+          </div> -->
+          <img *ngIf="project" class="thumbnail-relative responsive-img" src="{{project.thumbnails[0].src}}">
         </div>
       </div>
     </div>

@@ -1,11 +1,31 @@
-<div id="top" class="section white mb5 hide-on-small-only">
-  <div class="ml10 mr10 mt3"><img src="assets/images/logo-alg.svg"></div>
+<div class="section center-align mt6 hide-on-small-only">
+  <div class="row cv-logo">
+    <img src="assets/images/logo-alg.svg">
+  </div>
 </div>
-<div class="cv-header section teal mb5">
-  <div class="row center-align mt6 mb4" *ngIf="cv">
-    <h1 class="title white-text mb2"> {{ cv.title }}
+<div class="cv-header section pb2">
+  <div class="row center-align" *ngIf="cv">
+    <h1 class="title mb2">
+      <span class="name">{{cv.name}}</span>{{cv.surname}}
     </h1>
-    <span class="white-text">{{ cv.description }}</span>
+    <span class="cv-description-text">{{ cv.description }}</span>
+  </div>
+  <div class="col s12 center-align">
+    <i class="arrow-down material-icons mt2">keyboard_arrow_down</i>
+  </div>
+</div>
+<div class="cv-presentation section mb6">
+  <div class="container">
+    <div class="row mt6 mb4">
+      <div class="col s4">PHOTO</div>
+      <div class="cv-txt col s7 left-align offset-s1 pt2 pb2">
+        <p>Je m'appelle Anne-Lise, jeune designer web et intégratrice depuis 2 ans.</p>
+        <p>A la suite de ma dernière formation <span class="italic">Concepteur Designer Graphique</span> à l'école Aries, j'ai intégré l'entreprise France Bureau, vente de mobilier de bureau aux professionnels, à Grenoble.</p>
+        <p>J'ai un profil orienté web, de la création graphique au webdesign, à l'intégration, en passant par le design d'inferface.</p>
+        <p><a href="#formulaire-contact">N'hésitez pas à me contacter</a> pour une prise de contact ou une simple question.</p>
+        <a class="waves-effect waves-light btn mt2">Télécharger mon CV</a>
+      </div>
+    </div>
   </div>
 </div>
 <div class="container">
@@ -23,20 +43,6 @@
         </div>
       </div>
       <!-- End Projets -->
-    </div>
-  </div>
-</div>
-<div class="section teal">
-  <div class="row center-align">
-    <p>Téléchargez ici mon CV</p>
-  </div>
-</div>
-<div class="section teal">
-  <div class="row">
-    <div class="fixed-action-btn">
-      <a (click)="toTop()" class="btn-floating btn-large waves-effect waves-light grey lighten-1">
-        <i class="material-icons">arrow_upward</i>
-      </a>
     </div>
   </div>
 </div>

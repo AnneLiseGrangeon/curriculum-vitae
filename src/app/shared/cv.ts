@@ -1,7 +1,8 @@
 import { Project } from './project';
 
 export class Cv {
-  title: string;
+  name: string;
+  surname: string;
   description: string;
   projects?: Project[];
 }

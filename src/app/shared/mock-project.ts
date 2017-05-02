@@ -3,7 +3,7 @@ import { Project } from './project';
 export const projects: Project[] = [
   {
     title: 'Hop box',
-    description: 'Nice Project 10',
+    description: 'Projet en cours de refonte d\'un site web e-commerce pour un mobilier de rangement d\'angle personnalisable',
     slug: 'hop-box',
     images: [
       {
@@ -26,37 +26,31 @@ export const projects: Project[] = [
       }
     ],
   },
-  {
+  /*{
     title: 'Recipe',
-    description: 'Nice Project 8',
+    description: 'Projet en cours de conception d\'une application facilitant la réalisation de recettes de cuisine',
     slug: 'recipe',
     images: [
       {
-        src: 'assets/images/projects/recipe.jpg',
+        src: 'assets/images/projects/sample-1',
         alt: 'alt 2',
         title: 'title 3',
         legend: 'legend 4'
-      },
-      {
-        src: 'assets/images/projects/sample-1.jpg',
-        alt: 'alt 6',
-        title: 'title 7',
-        legend: 'legend 8'
       }
     ],
     thumbnails: [
       {
-        src: 'assets/images/thumbnails/sample-1.jpg',
+        src: 'assets/images/thumbnails/receipe-thumbnail.svg',
         alt: 'alt 2',
         title: 'title 3'
       },
       {
-        src: 'assets/images/thumbnails/sample-1-plain.jpg',
+        src: 'assets/images/thumbnails/receipe-thumbnail-plain.svg',
         alt: 'alt 2',
         title: 'title 3'
       }
     ],
-  },
+  },*/
   {
     title: 'Musée de la magie',
     description: 'Créations graphiques pour l\'inauguration du Musée de la magie à Paris',
@@ -100,26 +94,20 @@ export const projects: Project[] = [
     slug: 'regie-des-eaux',
     images: [
       {
-        src: 'assets/images/projects/sample-1.jpg',
+        src: 'assets/images/projects/regie-des-eaux-mock-up.jpg',
         alt: 'alt 2',
         title: 'title 3',
         legend: 'legend 4'
-      },
-      {
-        src: 'assets/images/projects/sample-1.jpg',
-        alt: 'alt 6',
-        title: 'title 7',
-        legend: 'legend 8'
       }
     ],
     thumbnails: [
       {
-        src: 'assets/images/thumbnails/sample-1.jpg',
+        src: 'assets/images/thumbnails/regie-des-eaux-thumbnail.svg',
         alt: 'alt 2',
         title: 'title 3'
       },
       {
-        src: 'assets/images/thumbnails/sample-1-plain.jpg',
+        src: 'assets/images/thumbnails/regie-des-eaux-thumbnail-plain.svg',
         alt: 'alt 2',
         title: 'title 3'
       }
@@ -176,7 +164,7 @@ export const projects: Project[] = [
   },
   {
     title: 'Co-voiturage',
-    description: 'Nice Project 2',
+    description: 'Imaginer une campagne de publicité pour promouvoir le co-voiturage auprès des 30-50 ans.',
     slug: 'co-voiturage',
     images: [
       {
@@ -201,11 +189,17 @@ export const projects: Project[] = [
   },
   {
     title: 'Artizz',
-    description: 'Nice Project 12',
+    description: 'Créer un logo et un site présentant le groupe d\'artisans Artizz',
     slug: 'artizz',
     images: [
       {
-        src: 'assets/images/projects/artizz-mockup.jpg',
+        src: 'assets/images/projects/artizz-mock-up.jpg',
+        alt: 'alt 6',
+        title: 'title 7',
+        legend: 'legend 8'
+      },
+      {
+        src: 'assets/images/projects/artizz-desktop.jpg',
         alt: 'alt 6',
         title: 'title 7',
         legend: 'legend 8'
@@ -226,11 +220,17 @@ export const projects: Project[] = [
   },
   {
     title: 'Cyclo Club Vizille',
-    description: 'Nice Project 10',
+    description: 'Créer un logo pour le Cyclo-club de Vizille',
     slug: 'cyclo-club-vizille',
     images: [
       {
-        src: 'assets/images/projects/sample-1.jpg',
+        src: 'assets/images/projects/cyclo-club-vizille-logo.jpg',
+        alt: 'alt 6',
+        title: 'title 7',
+        legend: 'legend 8'
+      },
+      {
+        src: 'assets/images/projects/cyclo-club-vizille-gourde.jpg',
         alt: 'alt 6',
         title: 'title 7',
         legend: 'legend 8'
@@ -251,11 +251,41 @@ export const projects: Project[] = [
   },
   {
     title: 'Freeman',
-    description: 'Nice Project 8',
+    description: 'Créer un logo et imaginer l\'identité graphique de la marque Freeman',
     slug: 'freeman',
     images: [
       {
-        src: 'assets/images/projects/sample-1.jpg',
+        src: 'assets/images/projects/freeman-logo-color.jpg',
+        alt: 'alt 6',
+        title: 'title 7',
+        legend: 'legend 8'
+      },
+      {
+        src: 'assets/images/projects/freeman-logo-nb.jpg',
+        alt: 'alt 6',
+        title: 'title 7',
+        legend: 'legend 8'
+      },
+      {
+        src: 'assets/images/projects/freeman-logo-.jpg',
+        alt: 'alt 6',
+        title: 'title 7',
+        legend: 'legend 8'
+      },
+      {
+        src: 'assets/images/projects/freeman-desktop.jpg',
+        alt: 'alt 6',
+        title: 'title 7',
+        legend: 'legend 8'
+      },
+      {
+        src: 'assets/images/projects/freeman-mobile.jpg',
+        alt: 'alt 6',
+        title: 'title 7',
+        legend: 'legend 8'
+      },
+      {
+        src: 'assets/images/projects/freeman-packaging.jpg',
         alt: 'alt 6',
         title: 'title 7',
         legend: 'legend 8'
@@ -276,11 +306,17 @@ export const projects: Project[] = [
   },
   {
     title: 'Tootici.fr',
-    description: 'Nice Project 6',
+    description: 'Projet de création d\'un livre présentant le concept de Tootici.fr',
     slug: 'tootici-fr',
     images: [
       {
-        src: 'assets/images/projects/sample-1.jpg',
+        src: 'assets/images/projects/tootici-fr-book.jpg',
+        alt: 'alt 6',
+        title: 'title 7',
+        legend: 'legend 8'
+      },
+      {
+        src: 'assets/images/projects/tootici-fr-illustrations.jpg',
         alt: 'alt 6',
         title: 'title 7',
         legend: 'legend 8'
@@ -333,7 +369,7 @@ export const projects: Project[] = [
   {
     title: 'Au citron pressé',
     description: 'Création de l\'identité d\'un restaurant gastronomique',
-    slug: 'au-citron-p',
+    slug: 'au-citron-presse',
     images: [
       {
         src: 'assets/images/projects/au-citron-presse-mock-up.jpg',

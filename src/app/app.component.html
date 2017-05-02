@@ -1,5 +1,14 @@
-<main>
+<main id="top">
   <router-outlet>
   </router-outlet>
 </main>
-<footer class="page-footer grey lighten-5 grey-text text-darken-2"></footer>
+<footer class="section">
+  <div id="formulaire-contact" class="row center-align">
+    <p>formulaire de contact</p>
+  </div>
+  <div class="fixed-action-btn">
+    <a (click)="toTop()" class="btn-floating btn-large waves-effect waves-light grey lighten-1">
+      <i class="material-icons">arrow_upward</i>
+    </a>
+  </div>
+</footer>

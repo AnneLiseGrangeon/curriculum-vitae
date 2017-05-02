@@ -1,13 +1,11 @@
-@small : 600px;
-@medium : 992px;
-@large : 1200px;
-@grey-lighest: #f2f2f2;
+@import "../../less/variables.less";
 .header {
-    background-color: @grey-lighest;
+    background-color: @background-color;
+    padding-bottom: 0;
+    border-bottom: solid 5px @text-color-grey-light;
     .project-info {
         text-align: center;
-        height: 100%;
-        vertical-align: middle;
+        position: relative;
         @media screen and (min-width: @small) {
             text-align: right;
         }
@@ -16,20 +14,29 @@
             font-size: 6rem;
         }
     }
-    .parallax-container {
-        height: 100px;
+    .project-thumbnails {
+        width: 32%;
+        img {
+            float: left;
+        }
+    }
+    /*.parallax-container {
+        height: 400px;
         z-index: 1;
         overflow: visible;
         .thumbnail-plain {
             position: absolute;
-            height: auto;
+            height: 250px;
         }
         .thumbnail-relative {
             position: absolute;
             display: block;
             top: 0;
+            img {
+                height: 250px;
+            }
         }
-    }
+    }*/
 }
 
 .projects {
