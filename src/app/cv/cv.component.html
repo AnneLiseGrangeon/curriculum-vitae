@@ -1,29 +1,33 @@
-<div class="section center-align mt6 hide-on-small-only">
-  <div class="row cv-logo">
-    <img src="assets/images/logo-alg.svg">
+<div class="section cv-header">
+  <div class="center-align mt6 hide-on-small-only">
+    <div class="row cv-logo">
+      <img src="assets/images/logo-alg.svg">
+    </div>
   </div>
-</div>
-<div class="cv-header section pb2">
-  <div class="row center-align" *ngIf="cv">
-    <h1 class="title mb2">
+  <div class="cv-name pb2">
+    <div class="row center-align" *ngIf="cv">
+      <h1 class="title mb2">
       <span class="name">{{cv.name}}</span>{{cv.surname}}
     </h1>
-    <span class="cv-description-text">{{ cv.description }}</span>
-  </div>
-  <div class="col s12 center-align">
-    <i class="arrow-down material-icons mt2">keyboard_arrow_down</i>
+      <span class="cv-description-text">{{ cv.description }}</span>
+    </div>
+    <div class="col s12 center-align mt3">
+      <a class="cv-scroll-bottom btn btn-floating pulse grey darken-4" (click)="goToCvPresentation()"><i class="arrow-down material-icons">keyboard_arrow_down</i></a>
+    </div>
   </div>
 </div>
-<div class="cv-presentation section mb6">
+<div id="cv-presentation" class="cv-presentation section mb6">
   <div class="container">
     <div class="row mt6 mb4">
-      <div class="col s4">PHOTO</div>
-      <div class="cv-txt col s7 left-align offset-s1 pt2 pb2">
+      <div class="img-profil-container" class="col s12 m4">
+        <img class="responsive-img circle" src="assets/images/profil_alg.jpg" alt="image de profil Anne-Lise GRANGEON">
+      </div>
+      <div class="cv-txt col s12 m7 left-align offset-m1 pt2 pb2">
         <p>Je m'appelle Anne-Lise, jeune designer web et intégratrice depuis 2 ans.</p>
         <p>A la suite de ma dernière formation <span class="italic">Concepteur Designer Graphique</span> à l'école Aries, j'ai intégré l'entreprise France Bureau, vente de mobilier de bureau aux professionnels, à Grenoble.</p>
         <p>J'ai un profil orienté web, de la création graphique au webdesign, à l'intégration, en passant par le design d'inferface.</p>
-        <p><a href="#formulaire-contact">N'hésitez pas à me contacter</a> pour une prise de contact ou une simple question.</p>
-        <a class="waves-effect waves-light btn mt2">Télécharger mon CV</a>
+        <p><a (click)="scrollToMailTo()">N'hésitez pas à me contacter</a> pour une prise de contact ou une simple question.</p>
+        <a target="_blank" href="assets/pdf/cv_anne-lise-grangeon.pdf" class="grey darken-4 waves-effect waves-light btn mt2">Télécharger mon CV</a>
       </div>
     </div>
   </div>

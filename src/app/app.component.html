@@ -1,13 +1,13 @@
-<main id="top">
+<main id="top" scrollTracker>
   <router-outlet>
   </router-outlet>
 </main>
 <footer class="section">
-  <div id="formulaire-contact" class="row center-align">
-    <p>formulaire de contact</p>
+  <div id="mailto" class="row center-align mt2 mb2">
+    <p>Pour me contacter : <a class="grey-text text-darken-4 grey lighten-6 btn-flat waves-effect pulse" href="mailto:annelise.grangeon@gmail.com">annelise.grangeon@gmail.com</a></p>
   </div>
   <div class="fixed-action-btn">
-    <a (click)="toTop()" class="btn-floating btn-large waves-effect waves-light grey lighten-1">
+    <a (click)="toTop()" [class]="'btn-floating btn-large waves-effect waves-light grey lighten-6 ' + (buttonAppears ? 'block' : 'none')">
       <i class="material-icons">arrow_upward</i>
     </a>
   </div>

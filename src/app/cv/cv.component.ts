@@ -1,8 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { CvService } from './../shared/cv.service';
 import { Cv } from './../shared/cv';
 import { Angulartics2 } from 'angulartics2';
+import { PageScrollService, PageScrollInstance } from 'ng2-page-scroll';
+import { DOCUMENT } from '@angular/platform-browser';
 
 
 @Component({
@@ -13,13 +15,14 @@ import { Angulartics2 } from 'angulartics2';
 export class CvComponent implements OnInit {
   error: string;
   cv: Cv;
-
+  
   constructor(
     private cvService: CvService,
     private router: Router,
     private route: ActivatedRoute,
-    private angulartics2: Angulartics2
-    
+    private angulartics2: Angulartics2,
+    private pageScrollService: PageScrollService,
+    @Inject(DOCUMENT) private document: any
   ) { }
 
   ngOnInit() {
@@ -29,5 +32,20 @@ export class CvComponent implements OnInit {
     })
     .catch(error => this.error = error);
     this.angulartics2.eventTrack.next({ action: 'Visualize Cv', properties: { category: 'Homepage' }});
+    console.log(this.document);
+  }
+
+  goToCvPresentation() {
+
+   let pageScrollInstance: PageScrollInstance = PageScrollInstance.
+   simpleInstance(this.document, '#cv-presentation');
+   this.pageScrollService.start(pageScrollInstance);
+
+  }
+
+  scrollToMailTo() {
+   let pageScrollInstance: PageScrollInstance = PageScrollInstance.
+   simpleInstance(this.document, '#mailto');
+   this.pageScrollService.start(pageScrollInstance);
   }
 }

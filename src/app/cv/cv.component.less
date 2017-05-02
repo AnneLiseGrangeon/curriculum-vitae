@@ -1,42 +1,59 @@
 @import "../../less/variables.less";
-.cv-logo {
-    width: 30%;
-    @media screen and (min-width: @medium) {
-        width: 20%;
-    }
-}
-
 .cv-header {
-    background-color: @background-color;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-    .title {
-        font-weight: bold;
-        color: @text-color-grey-dark;
-        font-size: 7rem;
-        .name {
-            color: @text-color-orange;
-            display: block;
-            font-size: 7rem;
+    background-color: @pink-lighest;
+    .cv-logo {
+        width: 30%;
+        @media screen and (min-width: @medium) {
+            width: 20%;
         }
     }
-    span {
-        font-size: 16px;
-    }
-    .cv-description-text {
-        color: @text-color-grey;
+    .cv-name {
+        .title {
+            font-weight: bold;
+            color: @grey-dark;
+            font-size: 7rem;
+            .name {
+                color: @orange;
+                display: block;
+                font-size: 7rem;
+            }
+        }
+        span {
+            font-size: 16px;
+        }
+        .cv-description-text {
+            color: @grey;
+        }
+        .cv-scroll-bottom {
+            cursor: pointer;
+            color: @grey-dark;
+            &:hover {
+                color: @orange;
+            }
+        }
     }
 }
 
 .cv-presentation {
-    background-color: @text-color-grey-light;
+    background-color: @grey-light;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    .cv-txt:before {
+        background-image: url("../../assets/images/apostrophe.svg");
+        content: "";
+    }
     .cv-txt {
         p {
             font-size: 1.3rem;
             color: white;
+            a {
+                color: white;
+                font-weight: 700;
+                cursor: pointer;
+            }
+            .italic {
+                font-style: italic;
+            }
         }
-    }
-    .cv-txt:before {
-        background-image: url("../../assets/images/apostrophe.svg");
     }
     .arrow-down {
         color: white;
