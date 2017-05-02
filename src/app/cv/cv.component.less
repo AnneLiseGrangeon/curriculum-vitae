@@ -12,10 +12,16 @@
             font-weight: bold;
             color: @grey-dark;
             font-size: 7rem;
+            @media (max-width: @small) {
+                font-size: 2rem;
+            }
             .name {
                 color: @orange;
                 display: block;
                 font-size: 7rem;
+                @media (max-width: @small) {
+                    font-size: 2rem;
+                }
             }
         }
         span {

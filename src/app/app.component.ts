@@ -9,12 +9,11 @@ import { DOCUMENT } from '@angular/platform-browser';
   styleUrls: ['./app.component.less']
 })
 export class AppComponent implements OnInit {
-
   buttonAppears: boolean;
 
   @HostListener('window:scroll', [])
   onScroll() {
-    let number = this.document.body.scrollTop;
+    const number = this.document.body.scrollTop;
     if (number > 1000) {
       this.buttonAppears = true;
     } else if (this.buttonAppears && number < 1000) {
@@ -22,23 +21,21 @@ export class AppComponent implements OnInit {
     }
   }
 
-
-  constructor(
-  	angulartics2GoogleAnalytics: Angulartics2GoogleAnalytics,
-  	private pageScrollService: PageScrollService,
-  	@Inject(DOCUMENT) private document: any
+  constructor(angulartics2GoogleAnalytics: Angulartics2GoogleAnalytics,
+    private pageScrollService: PageScrollService,
+    @Inject(DOCUMENT) private document: any
   ) {
-    this.buttonAppears=false;
+    this.buttonAppears = false;
   }
 
   ngOnInit() {
-    window.scrollTo(0,0);
+    window.scrollTo(0, 0);
   }
 
   toTop() {
-   let pageScrollInstance: PageScrollInstance = PageScrollInstance.
-   simpleInstance(this.document, '#top');
-   this.pageScrollService.start(pageScrollInstance);
+    const pageScrollInstance: PageScrollInstance = PageScrollInstance.
+    simpleInstance(this.document, '#top');
+    this.pageScrollService.start(pageScrollInstance);
   };
 
 }

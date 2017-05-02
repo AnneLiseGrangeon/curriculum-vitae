@@ -11,7 +11,6 @@ import { Angulartics2 } from 'angulartics2';
   styleUrls: ['./project.component.less']
 })
 export class ProjectComponent implements OnInit {
-
   error: string;
   project: Project;
 
@@ -21,8 +20,7 @@ export class ProjectComponent implements OnInit {
     private angulartics2: Angulartics2) { }
 
   ngOnInit() {
-    window.scrollTo(0,0);
-
+    window.scrollTo(0, 0);
     this.route.params.forEach((params: Params) => {
       if (typeof params['slug'] === 'string') {
         const slug = params['slug'];

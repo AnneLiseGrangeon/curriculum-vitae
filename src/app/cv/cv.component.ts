@@ -15,15 +15,12 @@ import { DOCUMENT } from '@angular/platform-browser';
 export class CvComponent implements OnInit {
   error: string;
   cv: Cv;
-  
-  constructor(
-    private cvService: CvService,
+  constructor(private cvService: CvService,
     private router: Router,
     private route: ActivatedRoute,
     private angulartics2: Angulartics2,
     private pageScrollService: PageScrollService,
-    @Inject(DOCUMENT) private document: any
-  ) { }
+    @Inject(DOCUMENT) private document: any) { }
 
   ngOnInit() {
     this.cvService.getCv()
@@ -32,19 +29,18 @@ export class CvComponent implements OnInit {
     })
     .catch(error => this.error = error);
     this.angulartics2.eventTrack.next({ action: 'Visualize Cv', properties: { category: 'Homepage' }});
-    console.log(this.document);
   }
 
   goToCvPresentation() {
 
-   let pageScrollInstance: PageScrollInstance = PageScrollInstance.
+   const pageScrollInstance: PageScrollInstance = PageScrollInstance.
    simpleInstance(this.document, '#cv-presentation');
    this.pageScrollService.start(pageScrollInstance);
 
   }
 
   scrollToMailTo() {
-   let pageScrollInstance: PageScrollInstance = PageScrollInstance.
+   const pageScrollInstance: PageScrollInstance = PageScrollInstance.
    simpleInstance(this.document, '#mailto');
    this.pageScrollService.start(pageScrollInstance);
   }

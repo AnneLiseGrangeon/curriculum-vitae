@@ -391,4 +391,4 @@ export const projects: Project[] = [
       }
     ],
   },
-]
+];

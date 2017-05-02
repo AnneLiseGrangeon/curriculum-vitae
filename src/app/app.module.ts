@@ -7,8 +7,8 @@ import { RouterModule  } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { CvService } from './shared/cv.service';
-import { CvModule } from './cv/cv.module'
-import { ProjectModule } from './project/project.module'
+import { CvModule } from './cv/cv.module';
+import { ProjectModule } from './project/project.module';
 import { AppRoutingModule } from './app-routing.module';
 import { Ng2PageScrollModule } from 'ng2-page-scroll';
 import { Angulartics2Module, Angulartics2GoogleAnalytics } from 'angulartics2';
