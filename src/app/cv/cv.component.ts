@@ -38,10 +38,4 @@ export class CvComponent implements OnInit {
    this.pageScrollService.start(pageScrollInstance);
 
   }
-
-  scrollToMailTo() {
-   const pageScrollInstance: PageScrollInstance = PageScrollInstance.
-   simpleInstance(this.document, '#mailto');
-   this.pageScrollService.start(pageScrollInstance);
-  }
 }
