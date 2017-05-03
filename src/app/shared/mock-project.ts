@@ -168,7 +168,13 @@ export const projects: Project[] = [
     slug: 'co-voiturage',
     images: [
       {
-        src: 'assets/images/projects/sample-1.jpg',
+        src: 'assets/images/projects/co-voiturage-bus-mock-up.jpg',
+        alt: 'alt 6',
+        title: 'title 7',
+        legend: 'legend 8'
+      },
+      {
+        src: 'assets/images/projects/co-voiturage-taches-menageres-telecommande.jpg',
         alt: 'alt 6',
         title: 'title 7',
         legend: 'legend 8'
