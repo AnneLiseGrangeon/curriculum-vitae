@@ -6,9 +6,7 @@
   </div>
   <div class="cv-name pb2">
     <div class="row center-align" *ngIf="cv">
-      <h1 class="title mb2">
-      <span class="name">{{cv.name}}</span>{{cv.surname}}
-    </h1>
+      <h1 class="title mb2"><span class="name">{{cv.name}}</span>{{cv.surname}}</h1>
       <span class="cv-description-text">{{ cv.description }}</span>
     </div>
     <div class="col s12 center-align mt3">
@@ -19,17 +17,21 @@
 <div id="cv-presentation" class="cv-presentation section mb6">
   <div class="container">
     <div class="row mt6 mb4">
-      <div class="img-profil-container" class="col s12 m4">
+      <div class="img-profil-container" class="col s10 offset-s1 m4">
         <img class="responsive-img circle" src="assets/images/profil_alg.jpg" alt="image de profil Anne-Lise GRANGEON">
       </div>
       <div class="cv-txt col s12 m7 left-align offset-m1 pt2 pb2">
         <p>Je m'appelle Anne-Lise, jeune designer web et intégratrice depuis 2 ans.</p>
         <p>A la suite de ma dernière formation <span class="italic">Concepteur Designer Graphique</span> à l'école Aries, j'ai intégré l'entreprise France Bureau, vente de mobilier de bureau aux professionnels, à Grenoble.</p>
-        <p>J'ai un profil orienté web, de la création graphique au webdesign, à l'intégration, en passant par le design d'inferface.</p>
+        <p>J'ai un profil orienté web, de la création graphique au webdesign, en passant par l'intégration.</p>
         <p>N'hésitez pas à m'envoyer un mail pour une prise de contact ou une simple question.</p>
-        <div class="mt3">
-          <a target="_blank" href="assets/pdf/cv_anne-lise-grangeon.pdf" class="grey darken-4 waves-effect waves-light btn">Télécharger mon CV</a>
-          <a class="btn-email white-text grey lighten-6 btn-flat ml2" href="mailto:annelise.grangeon@gmail.com">Contacter moi</a>
+        <div class="cv-contact row mt3">
+          <div class="col s12">
+            <a target="_blank" href="assets/pdf/CV_Anne-Lise-GRANGEON.pdf" class="btn grey darken-4 waves-effect waves-light">Télécharger mon CV</a>
+          </div>
+          <div class="col s12">
+            <a class="btn-email btn-flat white-text grey lighten-6" href="mailto:annelise.grangeon@gmail.com">Contacter moi</a>
+          </div>
         </div>
       </div>
     </div>

@@ -4,8 +4,12 @@
       <div class="row">
         <div class="project-info col s12 m5 offset-m2">
           <h1 class="project-title">{{project.title}}</h1>
-          <p class="grey-text text-darken-3 lighten-3">
-            {{project.description}}</p>
+          <p [innerHTML]="project.description" class="grey-text text-darken-3 lighten-3"></p>
+          <div class="project-skills ml1 mr1" *ngFor="let image of project.skills">
+            <button materialize="tooltip" class="btn-floating tooltipped btn-large white-text white" data-position="bottom" data-delay="50" [attr.data-tooltip]="image.legend">
+              <img class="responsive-img" src="{{image.src}}">
+            </button>
+          </div>
         </div>
         <div class="project-thumbnails col m5 hide-on-small-only">
           <!-- <div class="parallax-container">
@@ -24,8 +28,8 @@
 </div>
 <div class="container white projects mt6">
   <div *ngIf="project" class="row visuals-project">
-    <div class="col s12 center-align" *ngFor="let image of project.images; let i=index ">
-      <img class="responsive-img mb2" src="{{image.src}}">
+    <div class="col s12 center-align mb2" *ngFor="let image of project.images">
+      <img class="responsive-img" src="{{image.src}}">
     </div>
     <!-- Sauf la vignette -->
   </div>

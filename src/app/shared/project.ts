@@ -6,4 +6,5 @@ export class Project {
   description?: string;
   images?: Image[];
   thumbnails?: Image[];
+  skills?: Image[];
 }

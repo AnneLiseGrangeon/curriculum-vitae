@@ -11,7 +11,26 @@
         }
         .project-title {
             font-weight: bold;
-            font-size: 6rem;
+            margin-top: 1rem;
+            font-size: 4rem;
+            @media screen and (min-width: @small) {
+                font-size: 6rem;
+            }
+        }
+        .project-skills {
+            display: inline-block;
+            margin: auto;
+            clear: both;
+            margin: 2rem auto;
+            @media screen and (min-width: @small) {
+                margin-top: 0;
+            }
+            button {
+                cursor: auto;
+            }
+        }
+        .project-skills:nth-last-child(-n+1) {
+            margin-right: 0 !important;
         }
     }
     .project-thumbnails {
