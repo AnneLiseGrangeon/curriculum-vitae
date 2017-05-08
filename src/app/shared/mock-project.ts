@@ -3,11 +3,17 @@ import { Project } from './project';
 export const projects: Project[] = [
   {
     title: 'France Bureau',
-    description: 'Vente de mobilier de bureau pour les professionnels en France et au Benelux.',
+    description: '<i>Vente de mobilier de bureau pour les professionnels en France et au Benelux.</i> Intégrations sur les sites France Bureau et Benelux Office sur Drupal 7, et refonte du site Benelux Office dans le but d\'avoir deux sites avec le même theme. Réalisation de documentations techniques de mobilier de bureaux.',
     slug: 'france-bureau',
     images: [
       {
-        src: 'assets/images/projects/sample-1.jpg',
+        src: 'assets/images/projects/france-bureau-web-site.jpg',
+        alt: 'alt 6',
+        title: 'title 7',
+        legend: 'legend 8'
+      },
+      {
+        src: 'assets/images/projects/france-bureau-product.jpg',
         alt: 'alt 6',
         title: 'title 7',
         legend: 'legend 8'
@@ -28,21 +34,27 @@ export const projects: Project[] = [
     skills: [
       {
         src: 'assets/images/skills/skills-drupal.svg',
-        alt: 'alt 2',
-        title: 'title 3',
+        alt: 'Drupal 7',
+        title: 'Icon Drupal 7',
         legend: 'Drupal 7'
       },
       {
         src: 'assets/images/skills/skills-html.svg',
         alt: 'HTML5',
-        title: 'Icone HTML5',
+        title: 'Icon HTML5',
         legend: 'HTML5'
       },
       {
         src: 'assets/images/skills/skills-less.svg',
-        alt: 'alt 2',
-        title: 'title 3',
+        alt: 'Less',
+        title: 'Icon Less',
         legend: 'Less'
+      },
+      {
+        src: 'assets/images/skills/skills-bootstrap.svg',
+        alt: 'Bootstrap',
+        title: 'Icon Bootstrap',
+        legend: 'Bootstrap'
       },
       {
         src: 'assets/images/skills/skills-indesign.svg',
@@ -53,7 +65,7 @@ export const projects: Project[] = [
       {
         src: 'assets/images/skills/skills-illustrator.svg',
         alt: 'Illustrator',
-        title: 'Icone Illustrator',
+        title: 'Icon Illustrator',
         legend: 'Illustrator'
       }
     ]
@@ -92,25 +104,25 @@ export const projects: Project[] = [
       {
         src: 'assets/images/skills/skills-sketch.svg',
         alt: 'Sketch',
-        title: 'Icone Sketch',
+        title: 'Icon Sketch',
         legend: 'Sketch'
       },
       {
         src: 'assets/images/skills/skills-html.svg',
         alt: 'HTML5',
-        title: 'Icone HTML5',
+        title: 'Icon HTML5',
         legend: 'HTML5'
       },
       {
         src: 'assets/images/skills/skills-css.svg',
         alt: 'CSS3',
-        title: 'Icone CSS3',
+        title: 'Icon CSS3',
         legend: 'CSS3'
       },
       {
         src: 'assets/images/skills/skills-angular.svg',
         alt: 'Angular',
-        title: 'Icone Angular',
+        title: 'Icon Angular',
         legend: 'Angular'
       }
     ]
@@ -143,13 +155,13 @@ export const projects: Project[] = [
       {
         src: 'assets/images/skills/skills-illustrator.svg',
         alt: 'Illustrator',
-        title: 'Icone Illustrator',
+        title: 'Icon Illustrator',
         legend: 'Illustrator'
       },
       {
         src: 'assets/images/skills/skills-photoshop.svg',
         alt: 'Photoshop',
-        title: 'Icone Photoshop',
+        title: 'Icon Photoshop',
         legend: 'Photoshop'
       }
     ]
@@ -181,7 +193,7 @@ export const projects: Project[] = [
   },*/
   {
     title: 'Tootici.fr',
-    description: 'Tootici.fr : permettre aux commerçants de proximité de vendre les produits régionaux sur Tootici.fr, pour avoir une visibilité sur internet. Ci, dessous, un projet de création d\'un livre présentant le concept de Tootici et d\'étendre le projet au niveau national. ',
+    description: '<i>Permettre aux commerçants de proximité de vendre les produits régionaux sur Tootici.fr, pour avoir une visibilité sur internet.</i> Ci, dessous, un projet de création d\'un livre présentant le concept de Tootici et d\'étendre le projet au niveau national. ',
     slug: 'tootici-fr',
     images: [
       {
@@ -213,25 +225,25 @@ export const projects: Project[] = [
       {
         src: 'assets/images/skills/skills-indesign.svg',
         alt: 'Indesign',
-        title: 'Icone Indesign',
+        title: 'Icon Indesign',
         legend: 'Indesign'
       },
       {
         src: 'assets/images/skills/skills-illustrator.svg',
         alt: 'Illustrator',
-        title: 'Icone Illustrator',
+        title: 'Icon Illustrator',
         legend: 'Illustrator'
       },
       {
         src: 'assets/images/skills/skills-wordpress.svg',
         alt: 'Wordpress',
-        title: 'Icone Wordpress',
+        title: 'Icon Wordpress',
         legend: 'Wordpress'
       },
       {
         src: 'assets/images/skills/skills-bootstrap.svg',
         alt: 'Bootstrap',
-        title: 'Icone Bootstrap',
+        title: 'Icon Bootstrap',
         legend: 'Bootstrap'
       }
     ]
@@ -270,13 +282,13 @@ export const projects: Project[] = [
       {
         src: 'assets/images/skills/skills-illustrator.svg',
         alt: 'Illustrator',
-        title: 'Icone Illustrator',
+        title: 'Icon Illustrator',
         legend: 'Illustrator'
       },
       {
         src: 'assets/images/skills/skills-wordpress.svg',
         alt: 'Wordpress',
-        title: 'Icone Wordpress',
+        title: 'Icon Wordpress',
         legend: 'Wordpress'
       }
     ]
@@ -339,13 +351,13 @@ export const projects: Project[] = [
       {
         src: 'assets/images/skills/skills-illustrator.svg',
         alt: 'Illustrator',
-        title: 'Icone Illustrator',
+        title: 'Icon Illustrator',
         legend: 'Illustrator'
       },
       {
         src: 'assets/images/skills/skills-photoshop.svg',
         alt: 'Photoshop',
-        title: 'Icone Photoshop',
+        title: 'Icon Photoshop',
         legend: 'Photoshop'
       }
     ]
@@ -402,7 +414,7 @@ export const projects: Project[] = [
       {
         src: 'assets/images/skills/skills-illustrator.svg',
         alt: 'Illustrator',
-        title: 'Icone Illustrator',
+        title: 'Icon Illustrator',
         legend: 'Illustrator'
       }
     ]
@@ -441,7 +453,7 @@ export const projects: Project[] = [
       {
         src: 'assets/images/skills/skills-photoshop.svg',
         alt: 'Photoshop',
-        title: 'Icone Photoshop',
+        title: 'Icon Photoshop',
         legend: 'Photoshop'
       }
     ]
@@ -480,7 +492,7 @@ export const projects: Project[] = [
       {
         src: 'assets/images/skills/skills-illustrator.svg',
         alt: 'Illustrator',
-        title: 'Icone Illustrator',
+        title: 'Icon Illustrator',
         legend: 'Illustrator'
       }
     ]
@@ -519,7 +531,7 @@ export const projects: Project[] = [
       {
         src: 'assets/images/skills/skills-illustrator.svg',
         alt: 'Illustrator',
-        title: 'Icone Illustrator',
+        title: 'Icon Illustrator',
         legend: 'Illustrator'
       }
     ]
@@ -564,13 +576,13 @@ export const projects: Project[] = [
       {
         src: 'assets/images/skills/skills-illustrator.svg',
         alt: 'Illustrator',
-        title: 'Icone Illustrator',
+        title: 'Icon Illustrator',
         legend: 'Illustrator'
       },
       {
         src: 'assets/images/skills/skills-photoshop.svg',
         alt: 'Photoshop',
-        title: 'Icone Photoshop',
+        title: 'Icon Photoshop',
         legend: 'Photoshop'
       }
     ]
