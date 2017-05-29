@@ -20,7 +20,7 @@
               </div>
             </div>
           </div> -->
-          <img *ngIf="project" class="thumbnail-relative responsive-img" src="{{project.thumbnails[0].src}}">
+          <img *ngIf="project" class="thumbnail-relative responsive-img" src="{{project.thumbnails[0].src}}" alt="{{project.thumbnails[0].alt}}" title="{{project.thumbnails[0].title}}">
         </div>
       </div>
     </div>
@@ -29,7 +29,7 @@
 <div class="container white projects mt6">
   <div *ngIf="project" class="row visuals-project">
     <div class="col s12 center-align mb2" *ngFor="let image of project.images">
-      <img class="responsive-img" src="{{image.src}}">
+      <img class="responsive-img" src="{{image.src}}" alt="{{image.alt}}" title="{{image.title}}">
     </div>
     <!-- Sauf la vignette -->
   </div>

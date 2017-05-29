@@ -8,27 +8,22 @@ export const projects: Project[] = [
     images: [
       {
         src: 'assets/images/projects/france-bureau-web-site.jpg',
-        alt: 'alt 6',
-        title: 'title 7',
-        legend: 'legend 8'
+        alt: 'France bureau',
+        title: 'Home Benelux Office',
+        legend: ''
       },
       {
         src: 'assets/images/projects/france-bureau-product.jpg',
-        alt: 'alt 6',
-        title: 'title 7',
-        legend: 'legend 8'
+        alt: 'France Bureau',
+        title: 'Fiche produit Benelux Office',
+        legend: ''
       }
     ],
     thumbnails: [
       {
         src: 'assets/images/thumbnails/francebureau-thumbnail.svg',
-        alt: 'alt 2',
-        title: 'title 3'
-      },
-      {
-        src: 'assets/images/thumbnails/francebureau-thumbnail-plain.svg',
-        alt: 'alt 2',
-        title: 'title 3'
+        alt: 'France Bureau',
+        title: 'Projet France Bureau'
       }
     ],
     skills: [
@@ -77,27 +72,22 @@ export const projects: Project[] = [
     images: [
       {
         src: 'assets/images/projects/hop-box-home-page.jpg',
-        alt: 'alt 6',
-        title: 'title 7',
-        legend: 'legend 8'
+        alt: 'Hop box',
+        title: 'Home page Hop box',
+        legend: ''
       },
       {
         src: 'assets/images/projects/hop-box-module-page.jpg',
-        alt: 'alt 6',
-        title: 'title 7',
-        legend: 'legend 8'
+        alt: 'Hop box',
+        title: 'Modules Hop box',
+        legend: ''
       }
     ],
     thumbnails: [
       {
         src: 'assets/images/thumbnails/hop-box-thumbnail.svg',
-        alt: 'alt 2',
-        title: 'title 3'
-      },
-      {
-        src: 'assets/images/thumbnails/hop-box-thumbnail-plain.svg',
-        alt: 'alt 2',
-        title: 'title 3'
+        alt: 'Hop box',
+        title: 'Projet Hop box'
       }
     ],
     skills: [
@@ -134,21 +124,16 @@ export const projects: Project[] = [
     images: [
       {
         src: 'assets/images/projects/regie-des-eaux-mock-up.jpg',
-        alt: 'alt 2',
-        title: 'title 3',
-        legend: 'legend 4'
+        alt: 'Regie des eaux',
+        title: 'Mock up Regie des eaux',
+        legend: ''
       }
     ],
     thumbnails: [
       {
         src: 'assets/images/thumbnails/regie-des-eaux-thumbnail.svg',
-        alt: 'alt 2',
-        title: 'title 3'
-      },
-      {
-        src: 'assets/images/thumbnails/regie-des-eaux-thumbnail-plain.svg',
-        alt: 'alt 2',
-        title: 'title 3'
+        alt: 'Regie des eaux',
+        title: 'Projet : Regie des eaux'
       }
     ],
     skills: [
@@ -175,17 +160,12 @@ export const projects: Project[] = [
         src: 'assets/images/projects/sample-1',
         alt: 'alt 2',
         title: 'title 3',
-        legend: 'legend 4'
+        legend: ''
       }
     ],
     thumbnails: [
       {
         src: 'assets/images/thumbnails/receipe-thumbnail.svg',
-        alt: 'alt 2',
-        title: 'title 3'
-      },
-      {
-        src: 'assets/images/thumbnails/receipe-thumbnail-plain.svg',
         alt: 'alt 2',
         title: 'title 3'
       }
@@ -198,27 +178,22 @@ export const projects: Project[] = [
     images: [
       {
         src: 'assets/images/projects/tootici-fr-book.jpg',
-        alt: 'alt 6',
-        title: 'title 7',
-        legend: 'legend 8'
+        alt: 'Tootici.fr',
+        title: 'Book Tootici.fr',
+        legend: ''
       },
       {
         src: 'assets/images/projects/tootici-fr-illustrations.jpg',
-        alt: 'alt 6',
-        title: 'title 7',
-        legend: 'legend 8'
+        alt: 'Tootici.fr',
+        title: 'Illustrations Tootici.fr',
+        legend: ''
       }
     ],
     thumbnails: [
       {
         src: 'assets/images/thumbnails/tootici-thumbnail.svg',
-        alt: 'alt 2',
-        title: 'title 3'
-      },
-      {
-        src: 'assets/images/thumbnails/tootici-thumbnail-plain.svg',
-        alt: 'alt 2',
-        title: 'title 3'
+        alt: 'Tootici.fr',
+        title: 'Projet : Tootici.fr'
       }
     ],
     skills: [
@@ -255,27 +230,22 @@ export const projects: Project[] = [
     images: [
       {
         src: 'assets/images/projects/the-coffret-kakemono.jpg',
-        alt: 'alt 6',
-        title: 'title 7',
-        legend: 'legend 8'
+        alt: 'The Coffret',
+        title: 'Kakemono The Coffret',
+        legend: ''
       },
       {
         src: 'assets/images/projects/the-coffret-visuel_livret.jpg',
-        alt: 'alt 6',
-        title: 'title 7',
-        legend: 'legend 8'
+        alt: 'The Coffret',
+        title: 'Livret The Coffret',
+        legend: ''
       }
     ],
     thumbnails: [
       {
         src: 'assets/images/thumbnails/the-coffret-thumbnail.svg',
-        alt: 'alt 2',
-        title: 'title 3'
-      },
-      {
-        src: 'assets/images/thumbnails/au-citron-presse-thumbnail-plain.svg',
-        alt: 'alt 2',
-        title: 'title 3'
+        alt: 'The Coffret',
+        title: 'Projet The Coffret'
       }
     ],
     skills: [
@@ -300,51 +270,46 @@ export const projects: Project[] = [
     images: [
       {
         src: 'assets/images/projects/freeman-logo-color.jpg',
-        alt: 'alt 6',
-        title: 'title 7',
-        legend: 'legend 8'
+        alt: 'Freeman',
+        title: 'Logo color Freeman',
+        legend: ''
       },
       {
         src: 'assets/images/projects/freeman-logo-nb.jpg',
-        alt: 'alt 6',
-        title: 'title 7',
-        legend: 'legend 8'
+        alt: 'Freeman',
+        title: 'Logo nb Freeman',
+        legend: ''
       },
       {
         src: 'assets/images/projects/freeman-logo-.jpg',
-        alt: 'alt 6',
-        title: 'title 7',
-        legend: 'legend 8'
+        alt: 'Freeman',
+        title: 'Picto Freeman',
+        legend: ''
       },
       {
         src: 'assets/images/projects/freeman-desktop.jpg',
-        alt: 'alt 6',
-        title: 'title 7',
-        legend: 'legend 8'
+        alt: 'Freeman',
+        title: 'Desktop Freeman',
+        legend: ''
       },
       {
         src: 'assets/images/projects/freeman-mobile.jpg',
-        alt: 'alt 6',
-        title: 'title 7',
-        legend: 'legend 8'
+        alt: 'Freeman',
+        title: 'Mobile Freeman',
+        legend: ''
       },
       {
         src: 'assets/images/projects/freeman-packaging.jpg',
-        alt: 'alt 6',
-        title: 'title 7',
-        legend: 'legend 8'
+        alt: 'Freeman',
+        title: 'Packaging Freeman',
+        legend: ''
       }
     ],
     thumbnails: [
       {
         src: 'assets/images/thumbnails/freeman-thumbnail.svg',
-        alt: 'alt 2',
-        title: 'title 3'
-      },
-      {
-        src: 'assets/images/thumbnails/freeman-thumbnail-plain.svg',
-        alt: 'alt 2',
-        title: 'title 3'
+        alt: 'Freeman',
+        title: 'Projet : Freeman'
       }
     ],
     skills: [
@@ -369,45 +334,40 @@ export const projects: Project[] = [
     images: [
       {
         src: 'assets/images/projects/coca-cola-life-univers-jeu.jpg',
-        alt: 'alt 6',
-        title: 'title 7',
-        legend: 'legend 8'
+        alt: 'Coca-Cola Life',
+        title: 'Univers Coca-Cola Life',
+        legend: ''
       },
       {
         src: 'assets/images/projects/coca-cola-accueil.jpg',
-        alt: 'alt 6',
-        title: 'title 7',
-        legend: 'legend 8'
+        alt: 'Coca-Cola Life',
+        title: 'Home Coca-Cola Life',
+        legend: ''
       },
       {
         src: 'assets/images/projects/coca-cola-life-niveaux.jpg',
-        alt: 'alt 6',
-        title: 'title 7',
-        legend: 'legend 8'
+        alt: 'Coca-Cola Life',
+        title: 'Levels Coca-Cola Life',
+        legend: ''
       },
       {
         src: 'assets/images/projects/coca-cola-life-en-jeu.jpg',
-        alt: 'alt 6',
-        title: 'title 7',
-        legend: 'legend 8'
+        alt: 'Coca-Cola Life',
+        title: 'Game-play Coca-Cola Life',
+        legend: ''
       },
       {
         src: 'assets/images/projects/coca-cola-life-univers-jeu-2.jpg',
-        alt: 'alt 6',
-        title: 'title 7',
-        legend: 'legend 8'
+        alt: 'Coca-Cola Life',
+        title: 'Illustrations Coca-Cola Life',
+        legend: ''
       }
     ],
     thumbnails: [
       {
         src: 'assets/images/thumbnails/coca-cola-life-thumbnail.svg',
-        alt: 'alt 2',
-        title: 'title 3'
-      },
-      {
-        src: 'assets/images/thumbnails/coca-cola-life-thumbnail-plain.svg',
-        alt: 'alt 2',
-        title: 'title 3'
+        alt: 'Coca-Cola Life',
+        title: 'Projet : Coca-Cola Life'
       }
     ],
     skills: [
@@ -426,27 +386,22 @@ export const projects: Project[] = [
     images: [
       {
         src: 'assets/images/projects/co-voiturage-bus-mock-up.jpg',
-        alt: 'alt 6',
-        title: 'title 7',
-        legend: 'legend 8'
+        alt: 'Co-voiturage',
+        title: 'Mock up Co-voiturage',
+        legend: ''
       },
       {
         src: 'assets/images/projects/co-voiturage-taches-menageres-telecommande.jpg',
-        alt: 'alt 6',
-        title: 'title 7',
-        legend: 'legend 8'
+        alt: 'Co-voiturage',
+        title: 'Affiche Co-voiturage',
+        legend: ''
       }
     ],
     thumbnails: [
       {
         src: 'assets/images/thumbnails/co-voiturage-thumbnail.svg',
-        alt: 'alt 2',
-        title: 'title 3'
-      },
-      {
-        src: 'assets/images/thumbnails/co-voiturage-thumbnail-plain.svg',
-        alt: 'alt 2',
-        title: 'title 3'
+        alt: 'Co-voiturage',
+        title: 'Projet : Co-voiturage'
       }
     ],
     skills: [
@@ -465,27 +420,22 @@ export const projects: Project[] = [
     images: [
       {
         src: 'assets/images/projects/artizz-mock-up.jpg',
-        alt: 'alt 6',
-        title: 'title 7',
-        legend: 'legend 8'
+        alt: 'Artizz',
+        title: 'Mock up Artizz',
+        legend: ''
       },
       {
         src: 'assets/images/projects/artizz-desktop.jpg',
-        alt: 'alt 6',
-        title: 'title 7',
-        legend: 'legend 8'
+        alt: 'Artizz',
+        title: 'Desktop Artizz',
+        legend: ''
       }
     ],
     thumbnails: [
       {
         src: 'assets/images/thumbnails/artizz-thumbnail.svg',
-        alt: 'alt 2',
-        title: 'title 3'
-      },
-      {
-        src: 'assets/images/thumbnails/artizz-thumbnail-plain.svg',
-        alt: 'alt 2',
-        title: 'title 3'
+        alt: 'Artizz',
+        title: 'Projet : Artizz'
       }
     ],
     skills: [
@@ -504,27 +454,22 @@ export const projects: Project[] = [
     images: [
       {
         src: 'assets/images/projects/cyclo-club-vizille-logo.jpg',
-        alt: 'alt 6',
-        title: 'title 7',
-        legend: 'legend 8'
+        alt: 'Cyclo Club Vizille',
+        title: 'Logo Cyclo Club Vizille',
+        legend: ''
       },
       {
         src: 'assets/images/projects/cyclo-club-vizille-gourde.jpg',
-        alt: 'alt 6',
-        title: 'title 7',
-        legend: 'legend 8'
+        alt: 'Cyclo Club Vizille',
+        title: 'Gourde Cyclo Club Vizille',
+        legend: ''
       }
     ],
     thumbnails: [
       {
         src: 'assets/images/thumbnails/cyclo-club-vizille-thumbnail.svg',
-        alt: 'alt 2',
-        title: 'title 3'
-      },
-      {
-        src: 'assets/images/thumbnails/cyclo-club-vizille-thumbnail-plain.svg',
-        alt: 'alt 2',
-        title: 'title 3'
+        alt: 'Cyclo Club Vizille',
+        title: 'Projet : Cyclo Club Vizille'
       }
     ],
     skills: [
@@ -565,11 +510,6 @@ export const projects: Project[] = [
         src: 'assets/images/thumbnails/musee-magie-thumbnail.svg',
         alt: 'Musée de la magie de Paris',
         title: 'Projet : Musée de la magie'
-      },
-      {
-        src: 'assets/images/thumbnails/musee-magie-thumbnail-plain.svg',
-        alt: 'alt 2',
-        title: 'title 3'
       }
     ],
     skills: [
@@ -596,17 +536,12 @@ export const projects: Project[] = [
         src: 'assets/images/projects/au-citron-presse-mock-up.jpg',
         alt: 'alt 6',
         title: 'title 7',
-        legend: 'legend 8'
+        legend: ''
       }
     ],
     thumbnails: [
       {
         src: 'assets/images/thumbnails/au-citron-presse-thumbnail.svg',
-        alt: 'alt 2',
-        title: 'title 3'
-      },
-      {
-        src: 'assets/images/thumbnails/au-citron-presse-thumbnail-plain.svg',
         alt: 'alt 2',
         title: 'title 3'
       }
